@@ -1,189 +1,1087 @@
-.container{
-    height: 1566px;
-    width: 1104px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.top{
-    display: flex;
-    height: 50%;
-    margin: 0px auto;
+.container {
+  height: 1566px;
+  width: 1030px;
 }
-.topLeft{
-    background-color: black;
-    width: 40%;
+.top {
+  display: flex;
+  height: 50%;
+  margin: 0px auto;
 }
-.topRight{
-    width: 60%;
+.topLeft {
+  background-color: black;
+  width: 40%;
 }
-.topRighttop{
-    background-color: beige;
-    height: 60%;
+.topRight {
+  width: 60%;
 }
-.topRightbottom{
-    background-color: ;
-    height: 40%;
+.topRighttop {
+  background-color: beige;
+  height: 60%;
 }
-.bottom{
-    display: flex;
-    height: 50%;
-    margin: 0px auto;
+.topRightbottom {
+  background-color: olive;
+  height: 40%;
+  position: relative;
 }
-.bottomLeft{
-    display: flex;
-    background-color: beige;
-    width: 50%;
+.bottom {
+  height: 50%;
+  margin: 0px auto;
+  background-color: beige;
 }
-.bottomRight{
-    display: flex;
-    background: beige;
-    width: 50%;
+.bottomLeft {
+  display: flex;
+  width: 50%;
 }
-.menu{
-    color: white;
-    margin: 20px 20px;
-    font-size: 30px;
-    font-style: bold;
+.bottomRight {
+  display: flex;
+  width: 50%;
 }
-.intro1{
-    color: white;
-    margin: 50px 20px;
-    font-size: small;
+.menu {
+  color: white;
+  margin: 20px 20px;
+  font-size: 30px;
+  font-style: bold;
 }
-.menu1{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px 20px;
+.intro1 {
+  color: white;
+  margin: 50px 20px;
+  font-size: small;
 }
-.menu1name{
-    font-size: 20px;
-    font-weight: bolder;
+.menu1 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 20px;
 }
-.menu1price{
-    font-size: 20px;
-    display: flex;
-    font-weight: bolder;
+.menu1name {
+  font-size: 20px;
+  font-weight: bolder;
 }
-.menu1currency{
-    color: white;
-    font-size: 10px;
-    margin: 10px 2px;
-    opacity: 0.7;
+.menu1price {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
 }
-.menu1description{
-    display: flex;
-    margin: 20px 0px;
-    opacity: 0.7;
-    font-size: 14px;
+.menu1currency {
+  color: white;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
 }
-.menu1image{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
+.menu1description {
+  display: flex;
+  margin: 20px 0px;
+  opacity: 0.7;
+  font-size: 14px;
 }
-.intro2{
-    color: white;
-    margin: 10px 20px;
-    font-size: small;
+.menu1image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 10px;
 }
-.menu2{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px 20px;
+.intro2 {
+  color: white;
+  margin: 10px 20px;
+  font-size: small;
 }
-.menu2name{
-    font-size: 20px;
-    font-weight: bolder;
+.menu2 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 20px;
 }
-.menu2price{
-    font-size: 20px;
-    display: flex;
-    font-weight: bolder;
+.menu2name {
+  font-size: 20px;
+  font-weight: bolder;
 }
-.menu2currency{
-    color: white;
-    font-size: 10px;
-    margin: 10px 2px;
-    opacity: 0.7;
+.menu2price {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
 }
-.menu2description{
-    display: flex;
-    margin: 20px 0px;
-    opacity: 0.7;
-    font-size: 14px;
+.menu2currency {
+  color: white;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
 }
-.menu3{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px 20px;
+.menu2description {
+  display: flex;
+  margin: 20px 0px;
+  opacity: 0.7;
+  font-size: 14px;
 }
-.menu3name{
-    font-size: 20px;
-    font-weight: bolder;
+.menu3 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 20px;
 }
-.menu3price{
-    font-size: 20px;
-    display: flex;
-    font-weight: bolder;
+.menu3name {
+  font-size: 20px;
+  font-weight: bolder;
 }
-.menu3currency{
-    color: white;
-    font-size: 10px;
-    margin: 10px 2px;
-    opacity: 0.7;
+.menu3price {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
 }
-.menu3description{
-    display: flex;
-    margin: 20px 0px;
-    opacity: 0.7;
-    font-size: 14px;
+.menu3currency {
+  color: white;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
 }
-.menu23photo{
-    display: flex;
-    flex-wrap: wrap;
+.menu3description {
+  display: flex;
+  margin: 20px 0px;
+  opacity: 0.7;
+  font-size: 14px;
 }
-.plussign{
-    position: absolute;
-    left: 10px;
-    top: 20px;
+.menu23photo {
+  display: flex;
+  flex-wrap: wrap;
 }
-.menu3image{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
+.plussign {
+  position: absolute;
+  left: 10px;
+  top: 20px;
 }
-.menu3imagecontainer{
-    display: flex;
-    position: relative;
-    top: 30px;
+.menu3image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 10px;
 }
-.menu3imageA{
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-    left: 40px
+.menu3imagecontainer {
+  display: flex;
+  position: relative;
+  top: 30px;
 }
-.menu3imageB{
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-    left: 110px;
+.menu3imageA {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 40px;
 }
-.menu3imageC{
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-    left: 180px;
+.menu3imageB {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 110px;
+}
+.menu3imageC {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 180px;
+}
+.intro4 {
+  display: flex;
+}
+.sum4 {
+  display: inline-block;
+}
+.intro4A {
+  color: black;
+  margin: 20px 0px 10px 20px;
+  font-size: small;
+}
+.intro4B {
+  color: black;
+  margin: 20px 0px 10px 5px;
+  font-size: small;
+  font-weight: bolder;
+}
+.menu4 {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+}
+.menu4name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.menu4price {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  right: 400px;
+}
+.menu4currency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu4description {
+  display: flex;
+  margin: 50px 0px;
+  opacity: 0.7;
+  font-size: 14px;
+  position: absolute;
+}
+.menu4imagecontainer {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+.menu4image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  position: absolute;
+  right: 250px;
+  z-index: 0;
+}
+.menu4imagegroup {
+  position: absolute;
+  right: 80px;
+}
+.menu4imageA {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+}
+.menu4imageB {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+}
+.menu4imageC {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+}
+.intro5 {
+  color: black;
+  position: absolute;
+  margin: 20px 20px;
+  font-size: small;
+}
+.menu5 {
+  color: black;
+  margin: 20px 20px;
+  position: absolute;
+}
+.menu5name {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: 80px;
+}
+.menu5price {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  left: 450px;
+}
+.menu5currency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu5descriptionA {
+  margin: 50px 0px;
+  opacity: 0.7;
+  font-size: 14px;
+  position: relative;
+  top: 60px;
+}
+.menu5image {
+  display: flex;
+  position: absolute;
+  left: 220px;
+  top: 70px;
+}
+.menu5imageA {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.or {
+  position: absolute;
+  top: 70px;
+  left: 160px;
+}
+.menu5imageB {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0px 40px;
+}
+.menu5descriptionB {
+  margin: 50px 0px;
+  opacity: 0.7;
+  font-size: small;
+  position: relative;
+  top: 80px;
+  left: 150px;
+}
+.bottomLeftlunch {
+  display: inline-block;
+  background-color: black;
+  padding: 10px 30px;
+  margin: 50px 50px;
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+  position: absolute;
+}
+.lunchdescription {
+  color: black;
+  font-size: 10px;
+  margin: 0px 60px;
+  position: absolute;
+  top: 900px;
+}
+.menu6name {
+  margin: 50px 50px;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: bolder;
+  position: absolute;
+  top: 900px;
+  left: 200px;
+}
+.menu6underline {
+  width: 400px;
+  height: 2px;
+  background-color: grey;
+}
+.bottomLeftrow1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px;
+  position: relative;
+  top: 30px;
+}
+.menu6A {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 300px;
+}
+.menu6Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu6Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu6Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6Aimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu6B {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 300px;
+  left: 80px;
+}
+.menu6Bname {
+  display: flex;
+  position: relative;
+  margin: 0px 0px;
+  left: 20px;
+  font-weight: bolder;
+}
+.menu6Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu6Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6Bimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu6C {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 300px;
+  left: 160px;
+}
+.menu6Cname {
+  display: flex;
+  position: relative;
+  left: 90px;
+  margin: 0px 0px;
+  left: 25px;
+  font-weight: bolder;
+}
+.menu6Cprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu6Ccurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6Cimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.bottomLeftrow2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px;
+  position: relative;
+  top: 40px;
+}
+.menu6D {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 450px;
+}
+.menu6Dname {
+  display: flex;
+  position: relative;
+  left: 120px;
+  bottom: 100px;
+  margin: 0px 10px;
+  font-weight: bolder;
+}
+.menu6Dimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+}
+.menu6Dprice1 {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 150px;
+  bottom: 20px;
+}
+.menu6Dprice2 {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 300px;
+  bottom: 20px;
+}
+.servings1 {
+  font-size: 14px;
+  position: relative;
+  left: 40px;
+  bottom: 50px;
+}
+.slash {
+  font-size: 14px;
+  position: relative;
+  left: 155px;
+  bottom: 50px;
+}
+.servings2 {
+  font-size: 14px;
+  position: relative;
+  left: 165px;
+  bottom: 50px;
+}
+.menu6D1currency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6D2currency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.bottomLeftrow3 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px;
+}
+.menu6E {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 600px;
+}
+.menu6Ename {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu6Eprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu6Ecurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6Eimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu6F {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 600px;
+  left: 100px;
+}
+.menu6Fname {
+  display: flex;
+  position: relative;
+  left: 0px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu6Fprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu6Fcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6Fimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu6G {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 600px;
+  left: 140px;
+}
+.menu6Gname {
+  display: flex;
+  position: relative;
+  left: 25px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu6Gprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu6Gcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu6Gimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu7name {
+  margin: 50px 50px;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: bolder;
+  position: absolute;
+  top: 900px;
+  left: 700px;
+}
+.menu7underline {
+  width: 400px;
+  height: 2px;
+  background-color: grey;
+}
+.bottomRightrow1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px;
+  position: relative;
+  bottom: 90px;
+  left: 500px;
+}
+.menu7A {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 300px;
+}
+.menu7Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu7Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu7Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu7Aimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu7B {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 300px;
+  left: 80px;
+}
+.menu7Bname {
+  display: flex;
+  position: relative;
+  margin: 0px 0px;
+  left: 10px;
+  font-weight: bolder;
+}
+.menu7Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu7Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu7Bimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu7C {
+  display: flex;
+  position: relative;
+  margin: 10px 0px;
+  top: 300px;
+  left: 140px;
+}
+.menu7Cname {
+  display: flex;
+  position: relative;
+  left: 90px;
+  margin: 0px 0px;
+  left: 10px;
+  font-weight: bolder;
+}
+.menu7Cprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  margin: 30px 0px;
+  left: 10px;
+}
+.menu7Ccurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu7Cimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  margin: 20px 0px;
+  left: 0px;
+}
+.menu8name {
+  margin: 50px 50px;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: bolder;
+  position: absolute;
+  top: 1200px;
+  left: 700px;
+}
+.menu8underline {
+  width: 400px;
+  height: 2px;
+  background-color: grey;
+}
+.menu8row1 {
+  display: flex;
+  position: absolute;
+  margin: 10px 0px;
+  top: 1300px;
+  left: 730px;
+}
+.menu8row1Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row1Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 30px;
+}
+.menu8row1Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row1Bname {
+  display: flex;
+  position: relative;
+  left: 75px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row1Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 60px;
+}
+.menu8row1Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row2 {
+  display: flex;
+  position: absolute;
+  margin: 10px 0px;
+  top: 1350px;
+  left: 730px;
+}
+.menu8row2Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row2Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 15px;
+}
+.menu8row2Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row2Bname {
+  display: flex;
+  position: relative;
+  left: 60px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row2Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 35px;
+}
+.menu8row2Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row3 {
+  display: flex;
+  position: absolute;
+  margin: 10px 0px;
+  top: 1400px;
+  left: 730px;
+}
+.menu8row3Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row3Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 30px;
+}
+.menu8row3Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row3Bname {
+  display: flex;
+  position: relative;
+  left: 75px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row3Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 35px;
+}
+.menu8row3Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row4 {
+  display: flex;
+  position: absolute;
+  margin: 10px 0px;
+  top: 1450px;
+  left: 730px;
+}
+.menu8row4Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row4Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 30px;
+}
+.menu8row4Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row4Bname {
+  display: flex;
+  position: relative;
+  left: 75px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row4Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 20px;
+}
+.menu8row4Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row5 {
+  display: flex;
+  position: absolute;
+  margin: 10px 0px;
+  top: 1500px;
+  left: 730px;
+}
+.menu8row5Aname {
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row5Aprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 90px;
+}
+.menu8row5Acurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
+}
+.menu8row5Bname {
+  display: flex;
+  position: relative;
+  left: 140px;
+  margin: 0px 0px;
+  font-weight: bolder;
+}
+.menu8row5Bprice {
+  font-size: 20px;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  margin: 0px 0px;
+  left: 35px;
+}
+.menu8row5Bcurrency {
+  color: black;
+  font-size: 10px;
+  margin: 10px 2px;
+  opacity: 0.7;
 }
